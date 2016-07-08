@@ -1,0 +1,43 @@
+<!doctype html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Loading database playground</title>  
+  <style>
+		body {
+				margin: 30px;
+		    background-color: #193855;
+		}
+		h1 {
+		    color: maroon;
+		    margin-left: 40px;
+		} 		
+
+		.statusLabel {
+			color: rgb(114, 131, 150)
+		}  
+
+</style>
+</head>
+
+<body>
+	<script src="js/surfModule.js"></script>
+	<script src="js/main.js"></script>
+
+    <p>
+    <img id="image_in" src="resources/image_512.png"></img>
+    <canvas id="image_out" width="512" height="512"></img>
+    </p>
+
+    <input id="surfBtn1" class="button" type="button" value="Run" onclick="do_surf_algo(1);" />
+    <input id="surfBtn1000" class="button" type="button" value="Run 1000 times" onclick="do_surf_algo(1000);" />
+
+
+	<pre>
+    <label id="result" class="statusLabel" >Result: </label>
+    </pre>
+
+</body>
+
+</html>

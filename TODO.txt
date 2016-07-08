@@ -1,0 +1,5 @@
+=== C++ ===
+- CMakeList.txt instead of Qt Project
+- Add dlib as submodule
+- convert BMP to PNG !
+
